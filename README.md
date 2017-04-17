@@ -1,17 +1,14 @@
 # snagajob
 SnagAJob assignment for code review
 
-Have python 2.7 installed and running
+Have python 2.7 installed and running, bash with sed available
 
-Have bash with sed available
-
-Get all files
-
-Execute ./runme.sh
+Get all files and execute ./runme.sh in bash
 
 Check the contents of three files:
 
 accepted_applications.json
 
 rejected_applications.json
+
 weird_applications.json

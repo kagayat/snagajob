@@ -1,6 +1,5 @@
 import sys
 import json
-from pprint import pprint
 
 def qualify(application, answers):
 

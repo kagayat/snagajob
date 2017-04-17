@@ -1,0 +1,45 @@
+[{ Name: "Answered Not All Questions, But Made No Errors",
+  Questions: [ { Id: "id1", Answer: "white" },
+               { Id: "id2", Answer: "round" },
+               { Id: "id3", Answer: "hot" }
+             ]
+},
+{ Name: "Answered All Questions, Made No Errors",
+  Questions: [ { Id: "id1", Answer: "white" },
+               { Id: "id2", Answer: "round" },
+               { Id: "id3", Answer: "hot" },
+               { Id: "id4", Answer: "left" }
+              ]
+},
+{ Name: "Answered All Questions, But Made Errors",
+  Questions: [ { Id: "id1", Answer: "red" },
+               { Id: "id2", Answer: "round" },
+               { Id: "id3", Answer: "hot" },
+               { Id: "id4", Answer: "left" }
+              ]
+},
+{ Name: "Answered Not All Questions, Made Errors",
+  Questions: [ { Id: "id1", Answer: "white" },
+               { Id: "id2", Answer: "square" },
+               { Id: "id4", Answer: "left" }
+              ]
+},
+{ Name: "Answered More Questions Than Known, Made No Errors",
+  Questions: [ { Id: "id1", Answer: "white" },
+               { Id: "id2", Answer: "round" },
+               { Id: "id3", Answer: "hot" },
+               { Id: "id4", Answer: "left" },
+               { Id: "id5", Answer: "pony"}
+              ]
+},
+{ Name: "Answered More Questions Than Known, Made Errors",
+  Questions: [ { Id: "id0", Answer: "haze" },
+               { Id: "id1", Answer: "white" },
+               { Id: "id2", Answer: "round" },
+               { Id: "id3", Answer: "cold" },
+               { Id: "id4", Answer: "left" }
+              ]
+},
+{ Name: "Answered No Questions",
+  Questions: []
+}]
